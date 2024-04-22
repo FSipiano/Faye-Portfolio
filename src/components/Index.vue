@@ -49,6 +49,7 @@ import WelcomeItem from './WelcomeItem.vue'
         <img class="profile"
         :src="profileImage">
         </div>
+        <div class="container">
         <p class="paragraph">
           Hi, I'm Faye.
         </p>
@@ -68,11 +69,11 @@ import WelcomeItem from './WelcomeItem.vue'
           </a>
           on GitHub that aims to give newcomers a helping hand through the overwhelming jargon in this industry.
         </p>
-        <div class="">
-        <BlogCardContainer
-        ></BlogCardContainer>
+        <BlogCardContainer>
+        
+      </BlogCardContainer>
         </div>
-        <div class="">
+        <div class="button4">
           <ContactButton
           ></ContactButton>
         </div>
@@ -100,6 +101,10 @@ import WelcomeItem from './WelcomeItem.vue'
   text-align: center;
 }
 
+.links {
+  margin:10 0.5em 0.5em 2;
+}
+
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -111,7 +116,6 @@ import WelcomeItem from './WelcomeItem.vue'
   letter-spacing: 2px;
 }
 
-
 .subtitle {
   font-size: 32px;
   color: #526488;
@@ -121,12 +125,10 @@ import WelcomeItem from './WelcomeItem.vue'
   align-items: center;
 }
 
-
-
 a.button4 {
 display:inline-block;
 padding:0.3em 1.2em;
-margin:0 0.1em 0.1em 0;
+margin:0 0.5em 0.5em 2;
 border:0.16em solid rgba(75, 132, 134, 0.277);
 border-radius:2em;
 box-sizing: border-box;
@@ -152,20 +154,21 @@ color: #283991;
 }
 }
 
-
 .paragraph {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
+  padding: 2em 0.5em 0.7em;
   align-items: center;
+  text-align: center;
   justify-content: right;
   font-size: 20px;
-  color: #000000;
+  color: #242424;
 }
 
 .profile {
   border-radius: 5%;
-  display: block;
+  display: grid;
   margin-left: auto;
   margin-right: auto;
   width: 35%;
