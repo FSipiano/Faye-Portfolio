@@ -1,5 +1,4 @@
 <script setup>
-import WelcomeItem from './WelcomeItem.vue'
 </script>
 
 <template>
@@ -61,7 +60,6 @@ import WelcomeItem from './WelcomeItem.vue'
         </p> 
         <p class="paragraph">
           I specialise in explaining difficult technological concepts in a way that everyone can understand.
-          Below is a selection of my recent posts.
           I also maintain an Open Source 
           <a class = "underline text-indigo-700"
           href= "https://github.com/FSipiano/newbieDictionary">
@@ -70,7 +68,6 @@ import WelcomeItem from './WelcomeItem.vue'
           on GitHub that aims to give newcomers a helping hand through the overwhelming jargon in this industry.
         </p>
         <BlogCardContainer>
-        
       </BlogCardContainer>
         </div>
         <div class="button4">
@@ -95,9 +92,10 @@ import WelcomeItem from './WelcomeItem.vue'
 }
 
 .container {
-  margin: 0 auto;
+  margin: 10 auto;
   min-height: 100vh;
   display: grid;
+align-items: center;
   text-align: center;
 }
 

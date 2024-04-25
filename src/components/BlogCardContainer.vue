@@ -3,7 +3,6 @@
 
 <ul>
     <li v-for="post in posts" :key="post.title">
-      <!-- {{ item.name }} - {{ item.price }} -->
       <BlogCard :post="post">
 </BlogCard>
     </li>
@@ -12,12 +11,11 @@
 </section>
 </template>
 <script>
-import BlogCard from '~/components/BlogCard.vue';
 
 export default {
   
 data() {
-return {
+  return {
     posts: []
 }
  },
