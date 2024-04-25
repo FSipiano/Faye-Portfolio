@@ -8,7 +8,7 @@
           ></ContactButton>
           <h1 class="title">Faye_Sipiano</h1>
 
-<h2 class="subtitle"> Freelance tech writer and community-builder
+<h2 class="subtitle"> Freelance tech writer and front end developer
 </h2>
 <div class="links"> 
             <a
@@ -44,9 +44,12 @@
               Twitter
           </a>
         </div>
-        <div>
-        <img class="profile"
-        :src="profileImage">
+        <div class="">
+          <img :src="'src/components/icons/profileImage.jpg'"
+          height="400px"
+          width="300px"
+          
+        >
         </div>
         <div class="container">
         <p class="paragraph">
@@ -88,7 +91,7 @@
 .container { max-width: 100% }
 
 .page {
-  background-color: #ffffff96;
+  background-color: #edededce;
 }
 
 .container {
@@ -156,10 +159,10 @@ color: #283991;
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  padding: em 0.5em 0.5em;
+  padding: 5em 5em;
   align-items: center;
   text-align: center;
-  justify-content: right;
+  justify-content: center;
   font-size: 20px;
   color: #242424;
 }
@@ -167,6 +170,8 @@ color: #283991;
 .profile {
   border-radius: 5%;
   display: grid;
+  max-height: 400;
+  max-width: 350;
   margin-left: auto;
   margin-right: auto;
   width: 35%;
