@@ -80,12 +80,12 @@
 
 <style>
 @media
- (max-width: 300px) { 
+ (max-width: none) { 
    .container { 
-     max-width: 100%}
+     max-width: none}
      }
 
-.container { max-width: 80% }
+.container { max-width: 100% }
 
 .page {
   background-color: #ffffff96;
@@ -156,7 +156,7 @@ color: #283991;
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  padding: 2em 0.5em 0.7em;
+  padding: em 0.5em 0.5em;
   align-items: center;
   text-align: center;
   justify-content: right;
