@@ -131,6 +131,6 @@
  </script>
  <style>
  .page {
-   background-color: #edededce;
+   background-color: #e1d9d9ce;
  }
  </style>

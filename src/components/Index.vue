@@ -10,6 +10,7 @@
 
 <h2 class="subtitle"> Freelance tech writer and front end developer
 </h2>
+<h2 class="subtitle"> Full time CSS hater</h2>
 <div class="links"> 
             <a
             href="https://dev.to/javascriptcoff1"
@@ -47,16 +48,16 @@
         <div class="">
           <img :src="'src/components/icons/profileImage.jpg'"
           height="400px"
-          width="300px"
-          
-        >
+          width="300px">
         </div>
         <div class="container">
         <p class="paragraph">
           Hi, I'm Faye.
         </p>
-        <p class="paragraph">I love learning about coding and writing about what I have learned.
-          I also ride horses, enjoy roadtrips and cooking. 
+        <p class="paragraph">I enjoy learning new technologies and writing about what I have learned.
+          I also ride horses, enjoy roadtrips and cooking.
+          </p>
+          <p class="paragraph">
           I have written copy for multiple
           industries, including Finance, NFT gaming, Science, Education and Transport, and have prepared winning submissions for awards in FinTech 
           as well as funding applications for tech start-ups.
@@ -91,7 +92,7 @@
 .container { max-width: 100% }
 
 .page {
-  background-color: #edededce;
+  background-color: #e1d9d9ce;
 }
 
 .container {
@@ -119,7 +120,7 @@ align-items: center;
 
 .subtitle {
   font-size: 32px;
-  color: #526488;
+  color: #314e87;
   word-spacing: 5px;
   padding-bottom: 15px;
   justify-self: center;
@@ -129,7 +130,7 @@ align-items: center;
 a.button4 {
 display:inline-block;
 padding:0.3em 1.2em;
-margin:0 0.5em 0.5em 2;
+margin:0.5em 0.5em 5em;
 border:0.16em solid rgba(75, 132, 134, 0.277);
 border-radius:2em;
 box-sizing: border-box;
@@ -143,7 +144,7 @@ transition: all 0.2s;
 }
 a.button4:hover
 {
-border-color: rgb(202, 2, 2);
+border-color: rgb(76, 171, 249);
 }
 @media all and (max-width:30em)
 {
@@ -159,12 +160,13 @@ color: #283991;
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  padding: 5em 5em;
+  padding: 0.5em 10em;
+  margin: 0.2em 0.5em;
   align-items: center;
   text-align: center;
   justify-content: center;
   font-size: 20px;
-  color: #242424;
+  color: #000000;
 }
 
 .profile {
