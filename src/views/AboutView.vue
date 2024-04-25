@@ -9,7 +9,7 @@
          <p class="">
            I’d love to hear from you! Send me an email,
  <a class=""
-            href="https://twitter.com/JavaScriptCoff1">
+            href="https://twitter.com/techwritecoffee">
          a DM on Twitter,
          </a>
       or use the form below and
